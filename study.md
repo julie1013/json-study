@@ -95,7 +95,7 @@ already wrote and include the information about Dave's fish.
       "has recently lived at": {
                 "address1": "123 Fake Street",
                 "address2": "2 Muchinfo Road"
-        },
+        }
       }
     }
 ```
