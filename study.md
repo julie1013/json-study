@@ -38,7 +38,26 @@ As it makes sense to you please write the following in JSON format:
 -   Has lived in two places recently: 123 Fake street, and 2 Muchinfo Road
 
 ```json
-<!-- your answer here -->
+    { "Jason": {
+          "has many things": {
+            "cat": "Mr. Kitty",
+            "roommates": {
+                    "roommate1": "Dave",
+                    "roommate2": "Miller"
+                          },
+            "love of sports teams": {
+                      "team1": "Red Sox",
+                      "team2": "Patriots",
+                      "team3": "Bruins"
+                    },
+              "intense hatred of": "Denver Broncos"
+            },
+          "has recently lived at": {
+                    "address1": "123 Fake Street",
+                    "address2": "2 Muchinfo Road"
+            },
+          }
+        }
 ```
 
 I forgot, my roomate Dave has two goldfish, one named Bob (he's red) and the
@@ -46,7 +65,39 @@ other named Mr.MagicNibbles (yellow) and bites a bit. Please copy the JSON you
 already wrote and include the information about Dave's fish.
 
 ```json
-<!-- your answer here -->
+{ "Jason": {
+      "has many things": {
+        "cat": "Mr. Kitty",
+        "roommates": {
+                "roommate1": {
+                      "Dave": {
+                        "has two goldfish":{
+                          "fish1": {
+                            "name": "Bob",
+                            "color": "red"
+                          },
+                          "fish2": {
+                            "name": "Mr. MagicNibbles",
+                            "color": "yellow"
+                          }
+                        }
+                      }
+                    },
+                "roommate2": "Miller"
+                      },
+        "love of sports teams": {
+                  "team1": "Red Sox",
+                  "team2": "Patriots",
+                  "team3": "Bruins"
+                },
+          "intense hatred of": "Denver Broncos"
+        },
+      "has recently lived at": {
+                "address1": "123 Fake Street",
+                "address2": "2 Muchinfo Road"
+        },
+      }
+    }
 ```
 
 ## JSON Methods
@@ -54,7 +105,7 @@ already wrote and include the information about Dave's fish.
 Using the JSON your wrote above, can you write a method on the JSON?
 
 ```json
-<!-- your answer here -->
+No. It is a string, not an object.
 ```
 
 ## JSON Comments
@@ -62,5 +113,5 @@ Using the JSON your wrote above, can you write a method on the JSON?
 Using the JSON your wrote above, can you write a comment in the JSON?
 
 ```json
-<!-- your answer here -->
+No, because it is a string.
 ```
